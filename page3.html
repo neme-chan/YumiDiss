@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumi's Dipshit</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(#0918c3, #2765b6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            border: 5px solid #0918c3;
+            box-shadow: 0 0 10px #0918c3;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            background-color: #0918c3;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-container a.active {
+            background-color: #2765b6;
+        }
+
+        .button-container a:hover {
+            background-color: #2765b6;
+        }
+
+        .button-container a:active {
+            background-color: #2765b6;
+        }
+
+        .divider {
+            width: 80%;
+            height: 2px;
+            background: repeating-linear-gradient(
+                90deg,
+                #0918c3,
+                #0918c3 10px,
+                white 10px,
+                white 20px
+            );
+            margin-top: 20px;
+        }
+
+        .wrapper {
+            overflow-y: scroll;
+            width: 70%; /* or your preferred width */
+            max-width: 100%; /* Make sure the wrapper doesn't exceed the viewport width */
+            padding: 20px; /* or your preferred padding */
+            margin: auto; /* This will automatically center your wrapper horizontally */
+            box-sizing: border-box; /* Include padding and borders in the width */
+            background-color: rgba(255, 255, 255, 0.5); /* or your preferred color */
+            border: 2px solid #0918c3; /* or your preferred border style */
+            border-radius: 5px; /* This gives the wrapper its rounded corners */
+            text-align: center;
+            position: relative; /* Adjust if necessary for your layout */
+            z-index: 1; /* Keep this as is if you're using z-index for layering */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .wrapper h1 {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            color: #0918c3;
+            font-size: 24px;
+        }
+
+        .wrapper p {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            color: #0918c3;
+        }
+
+        .wrapper .divider {
+            width: 50%;
+            height: 2px;
+            background-color: #0918c3;
+            margin-top: 20px;
+        }
+
+        .wrapper .highlighted-list {
+            list-style-type: none;
+            padding: 0;
+        }   
+
+        .wrapper .highlighted-list li {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            color: #0918c3;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .wrapper .highlighted-list .highlight {
+            background-color: lightpink;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload-os-bbs.hoyolab.com/upload/2024/01/01/296851425/a9b4f8a8cee05f9c94354577e290a314_9132873421042986748.gif" alt="furina!" style="width: 200px; margin-top: 20px;">
+    <div class="button-container">
+        <a href="index.html">1</a>
+        <a href="page2.html">2</a>
+        <a href="page3.html" class="active">3</a>
+    </div>
+    <div class="divider"></div>
+    <div class="wrapper">
+        <h1>nothing to add at the moment</h1>
+    </div>
+</body>
+</html>
